@@ -12,7 +12,7 @@
 			if(isTweet){
 				tweetIndex = 1;
 			}
-			if(isHome||isTweet){
+			if(isTweet){
 				for(i=tweetIndex;i<tweets.length;i++){
 					var parent = tweets[i].parentNode.parentNode.parentNode;
 					var verified = parent.querySelector('[aria-label="Verified account"]') != null;
